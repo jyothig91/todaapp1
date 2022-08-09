@@ -1,15 +1,15 @@
 {
-  "main.css": "/reacttodo/static/css/main.c616889d.chunk.css",
-  "main.js": "/reacttodo/static/js/main.674353d4.chunk.js",
-  "main.js.map": "/reacttodo/static/js/main.674353d4.chunk.js.map",
-  "static/js/1.cc360fb6.chunk.js": "/reacttodo/static/js/1.cc360fb6.chunk.js",
-  "static/js/1.cc360fb6.chunk.js.map": "/reacttodo/static/js/1.cc360fb6.chunk.js.map",
-  "static/js/2.cb133581.chunk.js": "/reacttodo/static/js/2.cb133581.chunk.js",
-  "static/js/2.cb133581.chunk.js.map": "/reacttodo/static/js/2.cb133581.chunk.js.map",
-  "runtime~main.js": "/reacttodo/static/js/runtime~main.d462248d.js",
-  "runtime~main.js.map": "/reacttodo/static/js/runtime~main.d462248d.js.map",
-  "static/css/main.c616889d.chunk.css.map": "/reacttodo/static/css/main.c616889d.chunk.css.map",
-  "index.html": "/reacttodo/index.html",
-  "precache-manifest.0b76aafcc48d3d83bf6a11108b5d3c09.js": "/reacttodo/precache-manifest.0b76aafcc48d3d83bf6a11108b5d3c09.js",
-  "service-worker.js": "/reacttodo/service-worker.js"
+  "main.css": "/jyothig91/tododeploy.git/static/css/main.c616889d.chunk.css",
+  "main.js": "/jyothig91/tododeploy.git/static/js/main.674353d4.chunk.js",
+  "main.js.map": "/jyothig91/tododeploy.git/static/js/main.674353d4.chunk.js.map",
+  "static/js/1.cc360fb6.chunk.js": "/jyothig91/tododeploy.git/static/js/1.cc360fb6.chunk.js",
+  "static/js/1.cc360fb6.chunk.js.map": "/jyothig91/tododeploy.git/static/js/1.cc360fb6.chunk.js.map",
+  "static/js/2.cb133581.chunk.js": "/jyothig91/tododeploy.git/static/js/2.cb133581.chunk.js",
+  "static/js/2.cb133581.chunk.js.map": "/jyothig91/tododeploy.git/static/js/2.cb133581.chunk.js.map",
+  "runtime~main.js": "/jyothig91/tododeploy.git/static/js/runtime~main.e88f157d.js",
+  "runtime~main.js.map": "/jyothig91/tododeploy.git/static/js/runtime~main.e88f157d.js.map",
+  "static/css/main.c616889d.chunk.css.map": "/jyothig91/tododeploy.git/static/css/main.c616889d.chunk.css.map",
+  "index.html": "/jyothig91/tododeploy.git/index.html",
+  "precache-manifest.3c869e176f17de70dbdcdb9942683caa.js": "/jyothig91/tododeploy.git/precache-manifest.3c869e176f17de70dbdcdb9942683caa.js",
+  "service-worker.js": "/jyothig91/tododeploy.git/service-worker.js"
 }

@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/reacttodo/precache-manifest.0b76aafcc48d3d83bf6a11108b5d3c09.js"
+  "/jyothig91/tododeploy.git/precache-manifest.3c869e176f17de70dbdcdb9942683caa.js"
 );
 
 workbox.clientsClaim();
@@ -28,7 +28,7 @@ self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute("/reacttodo/index.html", {
+workbox.routing.registerNavigationRoute("/jyothig91/tododeploy.git/index.html", {
   
   blacklist: [/^\/_/,/\/[^/]+\.[^/]+$/],
 });
