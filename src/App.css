@@ -48,6 +48,8 @@
   background: rgb(112, 26, 62);
    border-radius: 4%;
    margin:10px;
+   font-family: "fantasy";
+  font-size:28px;
     
 }
  .item p {
@@ -58,10 +60,13 @@
 }
 
 .item button {
-  width:50px;
-  height:20px;
+  width:62px;
+  height:25px;
   text-align: center;
-  padding:2px;
+  padding:0px;
+  font-family: "fantasy";
+  font-size:20px;
+  text-align: center;
 }
 
 h1 {

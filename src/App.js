@@ -21,18 +21,30 @@ function App(){
   {
     return alert("pls enter a text")
   }
-  e.preventDefault();
-  setNotes((notes)=>[
-  ...notes,
-  {
-    title,
-    
-  }
-]);
+  //e.preventDefault();
+  //setNotes((notes)=>[
+  //...notes,
+  //{
+    //title,
+    setNotes((oldItem)=>{
+      return [...oldItem,title];
+    });
+  
+
 setTitle("");
  };
 
-
+function editTask(index){
+  const newlist=[...notes];
+  const arr=newlist.filter((val,i)=>{
+    return(i===index)
+  })
+  setTitle(arr);
+  const array=newlist.filter((val,i) => {
+    return(i !== index)
+  })
+  setNotes(array)
+}
 
   const removeTask =(a)=>{
     const finalData=notes.filter((curEle,index) => {
@@ -63,33 +75,32 @@ setTitle("");
         
           <input placeholder="Enter Title here " value={title} onChange={onChangeHandler}/><br></br><br></br>
          
-          <button onClick= {addItemList} >submit </button>
+          <button onClick= {addItemList} >Add </button>
         </div>
-        < div className="container">
+        <div div className="container">
          
             {
-              notes.map((value,index)=>{
+              notes.map((item,index)=>{
                 return (
                   
-                < div className="item">
+              //  < div className="item">
                 
-                <h3>{value.title}</h3><br></br>
+              //  <h3>{item.title}</h3><br></br>
                 
-                
-                <button onClick={()=>removeTask(index)}>Delete</button>
-                
+               < div className="item" key={index} style={{color:"black"}}>{item} <button onClick={()=>editTask(index)}>Edit</button>
+                <button  onClick={()=>removeTask(index)}>Delete</button>
                 </div>
-
-                );
-            })
+   ) }) 
             }
-          
-        </div>
+            
+            
+       
+      </div>
       </div>
       </header> 
-      
-    </div>
-  )
+     </div> 
+  
+  );
 }
 
 export default App;
