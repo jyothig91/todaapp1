@@ -21,11 +21,7 @@ function App(){
   {
     return alert("pls enter a text")
   }
-  //e.preventDefault();
-  //setNotes((notes)=>[
-  //...notes,
-  //{
-    //title,
+  
     setNotes((oldItem)=>{
       return [...oldItem,title];
     });
@@ -55,15 +51,15 @@ function editTask(index){
 
   
 
-  useEffect(() => {
+ useEffect(() => {
     localStorage.setItem("Notes", JSON.stringify(notes));
-  }, [notes]);
+ }, [notes]);
 
-  useEffect(() => {
-    const data = JSON.parse(localStorage.getItem("Notes"));
-    if (data) {
-      setNotes(data);
-    }
+ useEffect(() => {
+   const data = JSON.parse(localStorage.getItem("Notes"));
+   if (data) {
+     setNotes(data);
+   }
   }, []);
 
   return(
@@ -83,10 +79,7 @@ function editTask(index){
               notes.map((item,index)=>{
                 return (
                   
-              //  < div className="item">
-                
-              //  <h3>{item.title}</h3><br></br>
-                
+              
                < div className="item" key={index} style={{color:"black"}}>{item} <button onClick={()=>editTask(index)}>Edit</button>
                 <button  onClick={()=>removeTask(index)}>Delete</button>
                 </div>
